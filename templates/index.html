@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% extends "base.html" %} {% block title %} PI NODE {% endblock %}
+<!-- Content block -->
+{% block content %}
+<div id="event-listener">
+    <!-- tile 1 -->
+    <div class="tile row">
+        <div id="title_state" class="title col-2">
+            <label> Test label </label>
+        </div>
+        <div class="time col-8">
+            <input type="number" placeholder="00h:00m:00s" name="a" id="s">
+            <label id="timer0"> 00:00 </label>
+        </div>
+        <div class="tog form-check form-switch col-1 d-md-flex justify-content-md-end">
+            <input class="form-check-input btn-lg" type="checkbox" id="switch0" />
+        </div>
+    </div>
+    <!-- tile 2 -->
+    <div class="tile row">
+        <div id="title_state1" class="title col-2">
+            <label> Test label </label>
+        </div>
+        <div class="time col-8">
+            <label id="timer1"> 00:00 </label>
+        </div>
+        <div class="tog form-check form-switch col-1 d-md-flex justify-content-md-end">
+            <input class="form-check-input btn-lg" type="checkbox" id="switch1" />
+        </div>
+    </div>
+    <!-- tile 3 -->
+    <div class="tile row">
+        <div id="title_state2" class="title col-2">
+            <label> Test label </label>
+        </div>
+        <div class="time col-8">
+            <label id="timer2"> 00:00 </label>
+        </div>
+        <div class="tog form-check form-switch col-1 d-md-flex justify-content-md-end">
+            <input class="form-check-input btn-lg" type="checkbox" id="switch2" />
+        </div>
+    </div>
+    <!-- tile 4 -->
+    <div class="tile row">
+        <div id="title_state3" class="title col-2">
+            <label> Test label </label>
+        </div>
+        <div class="time col-8">
+            <label id="timer3"> 00:00 </label>
+        </div>
+        <div class="tog form-check form-switch col-1 d-md-flex justify-content-md-end">
+            <input class="form-check-input btn-lg" type="checkbox" id="switch3" />
+        </div>
+    </div>
+    <!-- tile end -->
+</div>
+{% endblock %}
